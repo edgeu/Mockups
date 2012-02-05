@@ -1,0 +1,48 @@
+/*
+ * Mockup Styles =============================================================
+ *
+ * Really simple styles to give life to the basic mockups -- just a scaffold
+ */
+
+body {padding-top: 70px;}
+
+.jumbotron {
+  background: #EEE;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+#overview hgroup {
+  margin-bottom:10px;
+}
+
+#actions {margin-top:20px;}
+#actions a {margin-right:20px;}
+
+#site-footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-top:1px solid #EEE;
+  font-style:italic;
+  color:#666;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+  zoom:1;
+}
